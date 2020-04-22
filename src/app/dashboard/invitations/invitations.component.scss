@@ -1,0 +1,103 @@
+.invitations {
+  border-radius: 5px;
+  background-color: #232323;
+  box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.03);
+  .invite {
+    padding: 8px 24px;
+    border-bottom: 1px solid #1e1e1e;
+    display: flex;
+    justify-content: space-between;
+    .left {
+      .user-avatar {
+        display: flex;
+        margin-left: 16px;
+        .avatar {
+          height: 41px;
+          width: 41px;
+          border: 1px solid #616161;
+          border-radius: 50%;
+          img {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            vertical-align: middle;
+            padding-top: 5px;
+            padding-left: 5px;
+          }
+          .people {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            vertical-align: middle;
+            padding-top: 5px;
+            padding-left: 5px;
+            background-color: #8e9afb;
+            margin-top: 3px;
+            margin-left: 3px;
+            .mat-icon {
+              color: #232323;
+            }
+          }
+        }
+        .name-cont {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin-left: 8px;
+          .name {
+            opacity: 0.8;
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 0;
+            line-height: 13px;
+          }
+          .business {
+            font-size: 10px;
+            opacity: 0.4;
+            line-height: 11px;
+          }
+        }
+      }
+    }
+    .right {
+      width: 187px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .stage {
+        p {
+          opacity: 0.6;
+          font-size: 12px;
+          letter-spacing: 0;
+          line-height: 13px;
+        }
+      }
+      .status {
+        width: 102px;
+        border-radius: 5px;
+        padding: 6px 0;
+        text-align: center;
+        opacity: 0.2;
+
+        p {
+          opacity: 0.8;
+          font-size: 12px;
+          letter-spacing: 0;
+          line-height: 13px;
+        }
+
+        &.accepted {
+          background-color: #57a75c;
+        }
+        &.pending {
+          background-color: #f2c043;
+        }
+        &.declined {
+          background-color: #ffc2c2;
+        }
+      }
+    }
+    .show-all {
+    }
+  }
+}

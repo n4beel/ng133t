@@ -1,5 +1,7 @@
 .overview {
-  .stats-bar {
+  .stats-bar-cont,
+  .job-offers-cont,
+  .offer-hiring-metrics-cont {
     margin-bottom: 48px;
   }
   .card-header {
@@ -28,7 +30,7 @@
     .right {
       display: flex;
       .heading {
-        margin: 12px 8px;
+        margin: 12px 0;
         p {
           opacity: 0.6;
           font-size: 12px;
@@ -37,9 +39,26 @@
           text-align: right;
         }
       }
+      .buttons {
+        button {
+          margin-left: 16px;
+          &:first-child {
+            margin-left: 8px;
+          }
+        }
+      }
     }
   }
-  .job-offers {
-    margin-bottom: 40px;
+  .bottom-section {
+    padding: 0 80px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    & > div {
+      width: calc(50% - 40px);
+      .card-header {
+        padding: 0;
+      }
+    }
   }
 }

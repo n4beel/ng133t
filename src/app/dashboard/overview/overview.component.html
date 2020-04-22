@@ -1,5 +1,5 @@
 <div class="overview">
-  <div class="stats-bar">
+  <div class="stats-bar-cont">
     <app-stats-bar></app-stats-bar>
   </div>
   <div class="card-header">
@@ -40,7 +40,70 @@
       </div>
     </div>
   </div>
-  <div class="job-offers">
+  <div class="job-offers-cont">
     <app-job-offers-table></app-job-offers-table>
+  </div>
+  <div class="bottom-section">
+    <div class="left">
+      <div class="card-header">
+        <div class="left">
+          <div class="heading">
+            <p>
+              Invitations
+            </p>
+          </div>
+        </div>
+        <div class="right">
+          <div class="heading">
+            <p>
+              Showing
+            </p>
+          </div>
+          <div class="buttons">
+            <button mat-flat-button color="primary">
+              Screening
+              <mat-icon aria-hidden="false" aria-label="Example home icon"
+                >keyboard_arrow_down</mat-icon
+              >
+            </button>
+            <button mat-flat-button color="primary">
+              <mat-icon aria-hidden="false" aria-label="Example home icon"
+                >clear</mat-icon
+              >
+              Clear
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="invitations-cont">
+        <app-invitations></app-invitations>
+      </div>
+    </div>
+    <div class="right">
+      <div class="card-header">
+        <div class="left">
+          <div class="heading">
+            <p>
+              Offer &amp; Hiring metrics
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="offer-hiring-metrics-cont">
+        <app-offer-hiring-metrics></app-offer-hiring-metrics>
+      </div>
+      <div class="card-header">
+        <div class="left">
+          <div class="heading">
+            <p>
+              Workflow metrics
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="workflow-metrics-cont">
+        <app-workflow-metrics></app-workflow-metrics>
+      </div>
+    </div>
   </div>
 </div>

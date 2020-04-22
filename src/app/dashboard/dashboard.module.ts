@@ -15,6 +15,9 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { InvitationsComponent } from './invitations/invitations.component';
+import { WorkflowMetricsComponent } from './workflow-metrics/workflow-metrics.component';
+import { OfferHiringMetricsComponent } from './offer-hiring-metrics/offer-hiring-metrics.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +25,9 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     OverviewComponent,
     StatsBarComponent,
     JobOffersTableComponent,
+    InvitationsComponent,
+    WorkflowMetricsComponent,
+    OfferHiringMetricsComponent,
   ],
   imports: [
     CommonModule,
