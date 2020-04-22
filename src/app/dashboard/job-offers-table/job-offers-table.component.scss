@@ -1,0 +1,123 @@
+.job-offers-table {
+  padding: 0 80px;
+  box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.03);
+  border-radius: 5px;
+  .mat-table {
+    width: 100%;
+    background-color: #272727;
+    border-radius: 5px 5px 0 0;
+    ::ng-deep thead {
+      border-radius: 5px 5px 0 0;
+      .mat-header-row {
+        border-radius: 5px 5px 0 0;
+        .mat-header-cell {
+          border-bottom-color: #1e1e1e;
+          &:first-child {
+            ::ng-deep .mat-form-field {
+              .mat-form-field-wrapper {
+                padding-bottom: 0;
+                .mat-form-field-flex {
+                  border-radius: 5px;
+                  .mat-form-field-infix {
+                    border-top: 0;
+                    padding: 12px;
+                    input {
+                      line-height: 2;
+                    }
+                  }
+                  .mat-form-field-prefix {
+                    margin-top: 18px;
+                  }
+                }
+              }
+            }
+          }
+          &:not(:first-child) {
+            width: 100px;
+            text-align: right;
+            opacity: 0.8;
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 0;
+            line-height: 13px;
+            div {
+              border-bottom: 2px solid #848484;
+              margin-right: 24px;
+              height: 13px;
+              padding: 20px 0;
+            }
+          }
+          &:nth-child(3) {
+            div {
+              border-bottom-color: #8dcfff;
+            }
+          }
+          &:nth-child(4) {
+            div {
+              border-bottom-color: #6be1c9;
+            }
+          }
+          &:nth-child(5) {
+            div {
+              border-bottom-color: #e5c06e;
+            }
+          }
+          &:nth-child(6) {
+            div {
+              border-bottom-color: #cbdd7a;
+            }
+          }
+          &:nth-child(7) {
+            div {
+              border-bottom-color: #82d564;
+            }
+          }
+          &:nth-child(8) {
+            div {
+              border-bottom-color: #f18282;
+            }
+          }
+          &:last-child {
+            div {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+    ::ng-deep tbody {
+      border-radius: 5px 5px 0 0;
+      .mat-row {
+        border-radius: 5px 5px 0 0;
+        &:hover {
+          background-color: #333333;
+        }
+        .mat-cell {
+          border-bottom-color: #1e1e1e;
+          &:not(:first-child) {
+            width: 100px;
+            text-align: right;
+            opacity: 0.6;
+            font-size: 12px;
+            letter-spacing: 0;
+            line-height: 13px;
+            text-align: right;
+            padding-right: 24px;
+          }
+          &:first-child {
+            opacity: 0.8;
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 0;
+            line-height: 13px;
+          }
+        }
+      }
+    }
+  }
+  .mat-paginator {
+    background-color: #272727;
+    color: #8e9afb;
+    border-radius: 0 0 5px 5px;
+  }
+}

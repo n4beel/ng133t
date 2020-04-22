@@ -1,0 +1,45 @@
+.overview {
+  .stats-bar {
+    margin-bottom: 48px;
+  }
+  .card-header {
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    .left {
+      display: flex;
+      .heading {
+        margin: 6px 24px;
+        p {
+          opacity: 0.8;
+          font-size: 24px;
+          font-weight: 600;
+          letter-spacing: 0.8px;
+          line-height: 26px;
+        }
+      }
+      .buttons {
+        button {
+          margin-right: 16px;
+        }
+      }
+    }
+    .right {
+      display: flex;
+      .heading {
+        margin: 12px 8px;
+        p {
+          opacity: 0.6;
+          font-size: 12px;
+          letter-spacing: 0;
+          line-height: 13px;
+          text-align: right;
+        }
+      }
+    }
+  }
+  .job-offers {
+    margin-bottom: 40px;
+  }
+}
