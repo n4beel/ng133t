@@ -16,6 +16,12 @@
     }
     .bar {
       margin-bottom: 32px;
+      ::ng-deep .mat-progress-bar {
+        height: 6px;
+        .mat-progress-bar-buffer {
+          background-color: #333333;
+        }
+      }
       &.one {
         ::ng-deep .mat-progress-bar {
           .mat-progress-bar-primary::after {
