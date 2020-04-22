@@ -2,44 +2,47 @@
   <div class="stats-bar-cont">
     <app-stats-bar></app-stats-bar>
   </div>
-  <div class="card-header">
-    <div class="left">
-      <div class="heading">
-        <p>
-          Job Offers
-        </p>
+  <div class="header-cont">
+    <div class="card-header">
+      <div class="left">
+        <div class="heading">
+          <p>
+            Job Offers
+          </p>
+        </div>
+        <div class="buttons">
+          <button mat-flat-button color="primary" class="primary-accent">
+            <mat-icon aria-hidden="false" aria-label="Example home icon"
+              >add</mat-icon
+            >
+            Add new
+          </button>
+          <button mat-flat-button color="accent">
+            <mat-icon aria-hidden="false" aria-label="Example home icon"
+              >people_alt</mat-icon
+            >
+            Candidates
+          </button>
+        </div>
       </div>
-      <div class="buttons">
-        <button mat-flat-button color="primary" class="primary-accent">
-          <mat-icon aria-hidden="false" aria-label="Example home icon"
-            >add</mat-icon
-          >
-          Add new
-        </button>
-        <button mat-flat-button color="accent">
-          <mat-icon aria-hidden="false" aria-label="Example home icon"
-            >people_alt</mat-icon
-          >
-          Candidates
-        </button>
-      </div>
-    </div>
-    <div class="right">
-      <div class="heading">
-        <p>
-          Showing
-        </p>
-      </div>
-      <div class="buttons">
-        <button mat-flat-button color="primary" class="primary-accent">
-          Archived (12)
-          <mat-icon aria-hidden="false" aria-label="Example home icon"
-            >keyboard_arrow_down</mat-icon
-          >
-        </button>
+      <div class="right">
+        <div class="heading">
+          <p>
+            Showing
+          </p>
+        </div>
+        <div class="buttons">
+          <button mat-flat-button color="primary" class="primary-accent">
+            Archived (12)
+            <mat-icon aria-hidden="false" aria-label="Example home icon"
+              >keyboard_arrow_down</mat-icon
+            >
+          </button>
+        </div>
       </div>
     </div>
   </div>
+
   <div class="job-offers-cont">
     <app-job-offers-table></app-job-offers-table>
   </div>

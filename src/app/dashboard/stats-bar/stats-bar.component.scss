@@ -1,6 +1,7 @@
 .stats-bar {
   .top-bar {
-    padding: 0 80px;
+    max-width: 1120px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #272727;
@@ -9,6 +10,7 @@
     margin-bottom: 40px;
     .left {
       display: flex;
+      padding-left: 26px;
       .item {
         display: flex;
         margin-right: 64px;
@@ -31,6 +33,7 @@
       }
     }
     .right {
+      padding-right: 26px;
       button {
         span {
           margin-left: 8px;
@@ -39,7 +42,8 @@
     }
   }
   .bottom-cards {
-    padding: 0 80px;
+    max-width: 1120px;
+    margin: 0 auto;
     ::ng-deep .mat-grid-list {
       .mat-grid-tile {
         box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.03);

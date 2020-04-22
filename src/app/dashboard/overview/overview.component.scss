@@ -4,8 +4,12 @@
   .offer-hiring-metrics-cont {
     margin-bottom: 48px;
   }
+  .header-cont {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
   .card-header {
-    padding: 0 80px;
+    // padding: 0 80px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 16px;
@@ -50,7 +54,9 @@
     }
   }
   .bottom-section {
-    padding: 0 80px;
+    // padding: 0 80px;
+    max-width: 1120px;
+    margin: 0 auto;
     margin-bottom: 60px;
     display: flex;
     justify-content: space-between;
