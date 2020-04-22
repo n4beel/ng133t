@@ -18,6 +18,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { InvitationsComponent } from './invitations/invitations.component';
 import { WorkflowMetricsComponent } from './workflow-metrics/workflow-metrics.component';
 import { OfferHiringMetricsComponent } from './offer-hiring-metrics/offer-hiring-metrics.component';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { OfferHiringMetricsComponent } from './offer-hiring-metrics/offer-hiring
     MatInputModule,
     FormsModule,
     ReactiveFormsModule,
+    MatProgressBarModule,
   ],
 })
 export class DashboardModule {}
