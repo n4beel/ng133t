@@ -19,6 +19,7 @@ import { InvitationsComponent } from './invitations/invitations.component';
 import { WorkflowMetricsComponent } from './workflow-metrics/workflow-metrics.component';
 import { OfferHiringMetricsComponent } from './offer-hiring-metrics/offer-hiring-metrics.component';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { ChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
     FormsModule,
     ReactiveFormsModule,
     MatProgressBarModule,
+    ChartsModule,
   ],
 })
 export class DashboardModule {}
