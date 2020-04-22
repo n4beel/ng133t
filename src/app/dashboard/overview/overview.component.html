@@ -10,7 +10,7 @@
         </p>
       </div>
       <div class="buttons">
-        <button mat-flat-button color="primary">
+        <button mat-flat-button color="primary" class="primary-accent">
           <mat-icon aria-hidden="false" aria-label="Example home icon"
             >add</mat-icon
           >
@@ -31,7 +31,7 @@
         </p>
       </div>
       <div class="buttons">
-        <button mat-flat-button color="primary">
+        <button mat-flat-button color="primary" class="primary-accent">
           Archived (12)
           <mat-icon aria-hidden="false" aria-label="Example home icon"
             >keyboard_arrow_down</mat-icon
@@ -60,13 +60,17 @@
             </p>
           </div>
           <div class="buttons">
-            <button mat-flat-button color="primary">
+            <button
+              mat-flat-button
+              class="primary-accent"
+              [style.backgroundColor]="'#333333'"
+            >
               Screening
               <mat-icon aria-hidden="false" aria-label="Example home icon"
                 >keyboard_arrow_down</mat-icon
               >
             </button>
-            <button mat-flat-button color="primary">
+            <button mat-flat-button color="primary" class="primary-accent">
               <mat-icon aria-hidden="false" aria-label="Example home icon"
                 >clear</mat-icon
               >

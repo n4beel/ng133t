@@ -21,3 +21,11 @@ body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
+.mat-flat-button,
+.mat-button {
+  font-size: 12px;
+}
+
+.primary-accent {
+  color: #8e9afb !important;
+}

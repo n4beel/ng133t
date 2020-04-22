@@ -5,14 +5,16 @@
   .mat-table {
     width: 100%;
     background-color: #272727;
-    border-radius: 5px 5px 0 0;
     ::ng-deep thead {
       border-radius: 5px 5px 0 0;
       .mat-header-row {
         border-radius: 5px 5px 0 0;
         .mat-header-cell {
           border-bottom-color: #1e1e1e;
+          border-radius: 5px 0 0 0;
+
           &:first-child {
+            border-radius: 5px 0 0 0;
             ::ng-deep .mat-form-field {
               .mat-form-field-wrapper {
                 padding-bottom: 0;
