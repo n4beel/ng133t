@@ -1,1 +1,56 @@
-<button mat-raised-button color="accent">Click Here</button>
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <div class="logo">
+      <img src="./../../../../assets/images/logo.png" alt="" />
+    </div>
+    <div class="search-form">
+      <form action="#">
+        <div class="input">
+          <mat-form-field appearance="filled" [style.fontSize]="'12px'">
+            <input matInput placeholder="Placeholder" />
+            <span matSuffix>Location</span>
+          </mat-form-field>
+        </div>
+
+        <div class="butttons">
+          <button mat-flat-button color="primary">
+            <mat-icon aria-hidden="false" aria-label="Example home icon"
+              >filter_list</mat-icon
+            >
+            Filter by
+          </button>
+          <button mat-flat-button color="accent">
+            <mat-icon aria-hidden="false" aria-label="Example home icon"
+              >search</mat-icon
+            >
+            Search
+          </button>
+        </div>
+      </form>
+    </div>
+    <div class="user-actions">
+      <div>
+        <button mat-button color="accent">
+          <mat-icon aria-hidden="false" aria-label="Example home icon"
+            >notifications_none</mat-icon
+          >
+          <span>Notifications</span>
+        </button>
+      </div>
+      <div class="user-avatar">
+        <div class="avatar">
+          <img src="./../../../../assets/images/download.jpeg" alt="" />
+        </div>
+        <div class="name-cont">
+          <p class="name">Omar Green</p>
+          <p class="business">Brown Brothers Harriman</p>
+        </div>
+        <div class="down">
+          <button mat-icon-button color="accent" aria-label="drop down">
+            <mat-icon>keyboard_arrow_down</mat-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
